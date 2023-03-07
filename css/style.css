@@ -1,0 +1,14 @@
+/* home start*/
+.home-header {
+    background-image: url(../images/mohamed-ajufaan.png);
+    height: 588px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home-header-bg {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+/* home end */
