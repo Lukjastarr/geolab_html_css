@@ -1,14 +1,117 @@
+/* global start */
+body {
+    font-family: 'Poppins', sans-serif;}
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+/* global end */
+
+
 /* home start*/
 .home-header {
     background-image: url(../images/mohamed-ajufaan.png);
-    height: 588px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 109px;
 }
+
 .home-header-bg {
     width: 100%;
     height: 100%;
-    background-color: black;
+    /*background-color: black;*/
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
+.home-header-content {
+    position: relative;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+    color: white;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 52px;
+}
+
+.header-titles {
+    color: white;
+    width: 600px;
+    margin-top: 150px;
+}
+
+.header-titles > h1 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+
+.header-titles > p {
+    font-size: 14px;
+}
+
 /* home end */
+
+/* s1 start */
+.home-s-1 {
+    padding-top: 164px;
+    padding-bottom: 90px;
+}
+
+.home-s-1-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 108px;
+}
+
+.home-s-1-texts >h4 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.home-s-1-texts >h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.home-s-1-texts > p:first-of-type {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.home-s-1-texts > p:last-of-type {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.home-s-1-texts > button {
+    padding: 15px 45px;
+    border-radius: 8px;
+    background-color: #5863F8;
+    color: white;
+    border: none;
+}
+
+.home-s-1-images >div {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+/* s1 end */
